@@ -8,6 +8,30 @@
 </head>
 
 <body background="image/bg2.jpg" style="background-repeat:repeat;">
+<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v4.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your customer chat code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="126367281359446"
+  theme_color="#6699cc">
+      </div>
 <script type='text/javascript' src='snow.mini.js'></script>
 	<div class="menutren">
 		<ul>
@@ -150,38 +174,36 @@
                       <dd><a href="1.html" title="D&G LIGHT BLUE">ADIDAS-MV1</a></dd>
                         <span>799.00 ₫</span>
                   </div>
-                    <a href=""><div id="sp2"> <img src="hinh/2.jpg" border="0"/>
+                    <a href=""><div id="sp2"> <a href="2.html"><img src="hinh/2.jpg" border="0"/></a>
 						  <span style="color:#FFF;"><br />
 						  </span>
 					  
-                        <dd><a href="moive1.html" title="D&amp;G LIGHT BLUE">BITIS-MV2</a><a href="moive2.html" title="D&G THE ONE SPORT FOR MEN"></a></dd>
+                        <dd><a href="moive1.html" title="D&amp;G LIGHT BLUE"><a href="2.html">BITIS-MV2</a></dd>
                         <span>699.000 ₫</span>
                     </div>
-                    <a href=""><div id="sp3"> <img src="hinh/3.jpg" border="0"/>
+                    <a href=""><div id="sp3"> <a href="3.html"><img src="hinh/3.jpg" border="0"/></a>
 						  <span style="color:#FFF;"><br />
 						  </span>
 					  
-                        <dd><a href="moive1.html" title="D&amp;G LIGHT BLUE">ADIDAS-MV3</a><a href="moive3.html"></a></dd>
+                        <dd><a href="moive1.html" title="D&amp;G LIGHT BLUE"><a href="3.html">ADIDAS-MV3</a></dd>
                         <span>799.00 ₫</span>
                     </div>
                 </div>
                 <!--hết hàng thứ nhất-->
                 <div id="hang2">
                 	<div id="sp1"><span style="color:#FFF;">
-				    <a href=""><img src="hinh/4.jpg" border="0"/><br />
-                	</span>
-					  
-                        <dd><a href="moive1.html" title="D&amp;G LIGHT BLUE">ADIDAS-MV4</a><a href="moive4.html"></a></dd>
+				    <a href=""><a href="4.html"><img src="hinh/4.jpg" border="0"/></a><br />
+				    <dd><a href="moive1.html" title="D&amp;G LIGHT BLUE"><a href="4.html">ADIDAS-MV4</a><a href="moive4.html"></dd>
                         <span>699.00 ₫</span>
                     </div>
-                    <a href=""><div id="sp2"> <img src="hinh/5.jpg" border="0"/><span style="color:#FFF;"><br />
+                    <a href=""><div id="sp2"> <a href="5.html"><img src="hinh/5.jpg" border="0"/></a><span style="color:#FFF;"><br />
                     </span>
 					  
-                        <dd><a href="moive1.html" title="D&amp;G LIGHT BLUE">NIKE-MV4</a><a href="moive5.html"></a></dd>
+                        <dd><a href="moive1.html" title="D&amp;G LIGHT BLUE"><a href="5.html">NIKE-MV4</a></dd>
                         <span>899.00 ₫</span>
                     </div>
-                    <a href=""><div id="sp3"> <img src="hinh/6.jpg" border="0"/>
-                      <dd><a href="moive1.html" title="D&amp;G LIGHT BLUE">BITIS-MV4</a><a href="moive6.html"></a></dd>
+                    <a href=""><div id="sp3"> <a href="6.html"><img src="hinh/6.jpg" border="0"/></a>
+                      <dd><a href="moive1.html" title="D&amp;G LIGHT BLUE"><a href="6.html">BITIS-MV4</a></dd>
                         <span>799.00 ₫</span>
                     </div>
                 </div>
